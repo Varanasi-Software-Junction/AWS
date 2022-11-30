@@ -25,7 +25,7 @@ SECRET_KEY = 'w(5(=7^58y(s0_^!372muy3ni45w&lmo1u2yz^l1rsc%y#n*zf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gettingstartedapp-env-1.eba-2kf8afpt.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['localhost','gettingstartedapp-env-1.eba-2kf8afpt.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'ebdjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
